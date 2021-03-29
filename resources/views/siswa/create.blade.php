@@ -77,13 +77,13 @@
                         <label for="jurusan" class="form-label">Jurusan</label>
                         <select name="jurusan" id="jurusan" class="form-control">
                             <option>-- Pilih Jurusan --</option>
-                            <option value="otkp">OTKP (Otomatisasi Tata Kelola Perkantoran)</option>
-                            <option value="rpl">RPL (Rekayasa Perangkat Lunak)</option>
-                            <option value="tkj">TKJ (Teknik Komputer dan Jaringan)</option>
-                            <option value="mmd">MMD (Multimedia)</option>
-                            <option value="bdp">BDP (Bisnis Daring dan Pemasaran)</option>
-                            <option value="tbg">TBG (Tata Boga)</option>
-                            <option value="htl">HTL (Perhotelan)</option>
+                            <option value="OTKP (Otomatisasi Tata Kelola Perkantoran)">OTKP (Otomatisasi Tata Kelola Perkantoran)</option>
+                            <option value="RPL (Rekayasa Perangkat Lunak)">RPL (Rekayasa Perangkat Lunak)</option>
+                            <option value="TKJ (Teknik Komputer dan Jaringan)">TKJ (Teknik Komputer dan Jaringan)</option>
+                            <option value="MMD (Multimedia)">MMD (Multimedia)</option>
+                            <option value="BDP (Bisnis Daring dan Pemasaran)">BDP (Bisnis Daring dan Pemasaran)</option>
+                            <option value="TBG (Tata Boga)">TBG (Tata Boga)</option>
+                            <option value="HTL (Perhotelan)">HTL (Perhotelan)</option>
                         </select>
                     </div>
                 </div>

@@ -83,7 +83,7 @@ class SiswaController extends Controller
      * @param  \App\Siswa  $siswa
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Siswa $siswa)
+    public function update(Request $request, $id)
     {
         $request->validate([
             'nis' => 'required',
@@ -97,6 +97,7 @@ class SiswaController extends Controller
             'jurusan' => 'required',
         ]);
 
+        $siswa = Siswa::findOrFail($id);
         $siswa->update($request->all());
 
         return redirect()->route('siswa.index')->with('success', 'Data berhasil diperbarui');
