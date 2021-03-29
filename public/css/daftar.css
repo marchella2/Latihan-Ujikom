@@ -1,0 +1,63 @@
+.card
+{
+    border-radius: 5px;
+}
+
+.note
+{
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #0072ff, #8811c5);
+}
+
+.logo
+{
+    position: absolute;
+    padding-top: 50px;
+}
+
+.title
+{
+    color: #fff;
+    padding: 50px 150px;
+}
+
+.form-content
+{
+    padding: 5%;
+    border: 1px solid #ced4da;
+    margin-bottom: 2%;
+}
+.form-control{
+    border-radius:1.5rem;
+}
+.btnSubmit
+{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 20%;
+    cursor: pointer;
+    background: #0062cc;
+    color: #fff;
+}
+.btnReset
+{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 20%;
+    cursor: pointer;
+    background: #797777;
+    color: #fff;
+}
+
+.btnDelete
+{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 20%;
+    cursor: pointer;
+    background: #700202;
+    color: #fff;
+}
